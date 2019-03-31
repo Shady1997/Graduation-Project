@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Descripition -->
+    <meta name="description" content="Learning Kids Programming">
+    <!-- Application-Name -->
+    <meta name="application-name" content="M_Kids">
+    <!-- Author Name -->
+    <meta name="author" content="Mustafa">
+    <!-- Page Title -->
+    <title>M-Kids</title>
+    <!-- Favicon -->
+    <link rel="icon" href="Assets/images/logo/logo.png">
+    <!--BootStrap -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="Assets/css/font-awesome.css">
+    <!--[if lt IE 9>
+        <script src="Assets/Js/html5shiv.min.js"></script>
+        <script src="Assets/css/Normalize.css"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="Assets/css/main.css">
+</head>
+
+<body>
+
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+            <div class="col-lg-5 col-12 order-2 order-lg-1 bg-color">
+                    <div class="login">
+                        <div class="logo-site">
+                            <img src="Assets/images/logo/favicon.ico" class="align-items-center">
+                        </div>
+                        <h3>We Are Mentor</h3>
+                            <p>Welcome back, please login to your account.</p>
+                            <form action="" enctype="multipart/form-data">
+
+                                <div>
+                                    <label>User Name *</label>
+                                    <div class="username-input">
+                                        <input type="text" placeholder="UserName" autofocus>
+                                        <span><i class="fa fa-user"></i></span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label>Password *</label>
+                                    <div class="password-input">
+                                        <input type="text" placeholder="Password">
+                                        <span><i class="fa fa-lock"></i></span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="remember d-inline-block">
+                                        <input type="checkbox"> Remember Me
+                                    </div>
+                                    <a href="#" class="forget">Forget Password ?</a>
+                                </div>
+
+                                <div style="text-align: center">
+                                    <input type="submit" value="Sign In">
+                                </div>
+
+                                <div class="signup">
+                                    <span>Don't have an account ?</span>
+                                    <a href="signUp.html">Sign Up</a>
+                                </div>
+
+                            </form>
+                    </div><!-- End Login -->
+            </div><!-- End Column -->
+
+            <div class="col-lg-7 col-12  order-1 order-lg-2 bg-color1">
+                    <div class="col-7 mx-auto">
+                        <img src="Assets/images/register/login.svg">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Loader -->
+
+    <div class="preloader" id="preloader">
+        <div class="loader loader-1">
+            <div class="loader-outter"></div>
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+
+    <!-- Jquery ==== -->
+    <script src="Assets/Js/jquery-3.3.1.js"></script>
+    <!-- Bootstrap -->
+    <script src="Assets/Js/bootstrap.min.js"></script>
+    <!-- NiceScroll -->
+    <script src="Assets/Js/jquery.nicescroll.js"></script>
+    <!-- Wow -->
+    <script src="Assets/Js/wow.min.js"></script>
+    <script>
+        $(window).on('load',function(){
+            $('.preloader').fadeOut(300);
+        });
+    </script>
+</body>
+
+</html>
